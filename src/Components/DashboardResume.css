@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Slabo+27px&display=swap');
+
+.dashboard-page{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8ff;
+    min-height: 100vh;
+}
+
+.breadcrumb-link{
+    color: #212428;
+    text-decoration: none;
+}
+
+.active{
+    color: #5300FF;
+}
+
+.dashboard-greeting-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #212428;
+}
+.dashboard-greeting-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #A6AEB5;
+}
+
+.top{
+    padding: 60px 0px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-create-resume{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 24px 10px 20px;
+    background: #5300FF;
+    border-radius: 10px;
+}
+
+.btn-create-resume:hover{
+    box-shadow: 0px 16px 40px 2px rgba(83, 0, 255, 0.2);
+    background: #5300FF;
+}
+
+.card{
+    min-height: 250px;
+    margin: 20px;
+    color: #212428;
+    border: none;
+    border-radius: 20px;
+}
+.card:hover{
+    box-shadow: 0px 16px 40px 2px rgba(112, 144, 176, 0.2);
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-actions{
+    /* background-color: #FDD200; */
+    color: #212428;
+    text-decoration: none;
+}
+
+.btn-link{
+    width: 100%;
+    height: 100%;
+    color: #212428;
+    text-decoration: none;
+}
+
+.btn-action{
+    padding: 10px;
+    padding-right: 100%;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.btn-link:hover {
+    color: #393a3d;
+}
+.btn-link-danger:hover {
+    color: #fff;
+}
+
+/* .dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #c0392b ;
+} */
+
+.dropdown-menu{
+    box-shadow: 0px 16px 40px 2px rgba(112, 144, 176, 0.2);
+    border: none;
+    border-radius: 20px;
+}
+.dropdown-item{
+    padding: 0px;
+}
+
+.dropdown-item-danger:focus, .dropdown-item-danger:hover {
+    color: #fff !important;
+    background-color: #c0392b ;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .top{
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+}
